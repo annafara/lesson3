@@ -1,0 +1,35 @@
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "fullmoon.py", line 33, in talk_to_me
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "fullmoon.py", line 33, in talk_to_me
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "fullmoon.py", line 33, in talk_to_me
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/telegram/ext/messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "fullmoon.py", line 34, in talk_to_me
+NameError: name 'dates' is not defined
